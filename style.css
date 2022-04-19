@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+body{
+ background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    
+}
+.cabecalho-principal{
+    margin-left: 368px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+.cabecalho-principal-texto{
+    margin-top: 18px;
+    margin-left: 90px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFF2E7;
+}
+.cabecalho-principal-imagem{
+    margin-top: 18px;
+}
+.cabecalho-secundario{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+    margin-top: 18px;
+    border-top:0.4px solid #FFF2E7 ; 
+
+}
+.cabecalho-secundario-texto{
+gap: 32px;   
+}
+.cabecalho-secundario-texto-titulo{
+    font-family:  'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: #FFF2E7;
+    margin-left: 368px;
+}
+.cabecalho-secundario-texto-subtitulo{
+    font-family: 'Sarala';
+    font-style: normal;
+    font-size: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+    margin-left: 368px;
+}
+.cabecalho-secundario-botao{
+    background: #ECD6C4;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color:#2F2325 ;
+    margin-left: 368px;
+    margin-top: 32px;
+}
+.cabecalho-final{
+     margin-top: 28px;
+    
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-width: ;
+}
+.cabecalho-final-titulo{
+    border-top: 0.4px solid #FFF2E7  ;
+    font-family: 'Righteous';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color:#FFF2E7
+}
+.cabecalho-final-paragrafo{
+    font-family:'Sarala';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ECD6C4;
+}
+.rodape{
+    margin-top: 18px;
+    border-top: 0.4px solid #FFF2E7  ;
+}
+.rodape-imagem{
+    margin-top: 18px;
+    margin-left: 630px;
+}
+
+
+
